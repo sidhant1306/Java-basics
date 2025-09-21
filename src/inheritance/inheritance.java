@@ -1,6 +1,7 @@
+package inheritance;
 
 // Inherited class:
-class Adv_calc extends basic_calc{
+class Adv_calc extends basic_calc {
     public int multi(int a, int b){
         return a * b;
     }

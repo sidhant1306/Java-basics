@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package constructors;
 
 class student{
     private int age;
@@ -8,7 +8,7 @@ class student{
     //default constructor:
     public student(){
         age = 18;
-        name = "hello";
+        name = "threads.hello";
         System.out.println(age);
         System.out.println(name);
     }

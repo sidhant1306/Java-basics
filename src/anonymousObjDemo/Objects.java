@@ -1,8 +1,10 @@
+package anonymousObjDemo;
+
 class AnonymousObject{
 
     // Just a printing function
     public void print(){
-        System.out.println("hello world");
+        System.out.println("threads.hello world");
     }
     // default constructor creation
     public AnonymousObject(){
@@ -17,7 +19,7 @@ public class Objects {
        // NOT an example of anonymous cons:  // for example : AnonymousObject obj = new AnonymousObject();
         // in the above example we are creating the object by new keyword but we are giving it a name by using AnonymousObject obj
 
-        // so  Anonymous constructor is mentioned below :
+        // so Anonymous constructor is mentioned below :
 
         new AnonymousObject();
         new AnonymousObject().print();

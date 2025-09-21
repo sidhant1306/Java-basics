@@ -1,3 +1,4 @@
+package encapsulationDemo;
 
 class Human{
     private String name;
